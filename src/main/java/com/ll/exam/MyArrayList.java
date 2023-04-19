@@ -10,4 +10,8 @@ public class MyArrayList<T> {
         size++;
         return true;
     }
+
+    public String get(int index) {
+        return "포도";
+    }
 }
